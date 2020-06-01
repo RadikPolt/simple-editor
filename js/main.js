@@ -15,9 +15,9 @@ function editorText(event) {
 		textA.focus();
 	}
 // Ctrl +S
-	if (event.ctrlKey && event.code == 'KeyS') { 
+	if (event.ctrlKey && event.code == 'KeyS' && !textA.hidden) { 
 		event.preventDefault();
-		div.innerHTML = textA.value
+		div.innerHTML = textA.value;
 		div.hidden = false;
 		textA.hidden = true;
 	}
