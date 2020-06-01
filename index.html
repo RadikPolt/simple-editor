@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple editor</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div class="ba-container">
+		<div class="ba-texteditor">
+			<p>Для изменения текста нажми Ctr+E</p>
+			<p>Для сохранения записанного нажми Ctr+S</p>
+			<p>Что бы выйти нажми ESC</p>
+			<div class="ba-textarea" >
+				<h1>Какой-то текст!</h1>
+				<p>Бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла</p>
+				<p>Бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла</p>
+			</div>
+			<textarea name="textarea" id="textarea" cols="30" rows="10" hidden></textarea>
+			<!-- /.ba-textarea -->
+		</div>
+		<!-- /.ba-editor -->
+	</div>
+	<!-- /.ba-container -->
+
+<script src="js/main.js"></script>
+</body>
+</html>
